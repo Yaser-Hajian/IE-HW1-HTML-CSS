@@ -1,13 +1,12 @@
-@use "variables";
-
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: variables.$background;
+  background-color: #E5E5E5;
 }
+
 .sidebar {
-  background-color: variables.$white;
+  background-color: #ffffff;
   display: inline-block;
   position: absolute;
   width: 305px;
@@ -15,3 +14,5 @@ body {
   left: 0px;
   top: 0px;
 }
+
+/*# sourceMappingURL=style.css.map */
