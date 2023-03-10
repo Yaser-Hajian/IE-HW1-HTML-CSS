@@ -56,9 +56,43 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
   text-transform: capitalize;
   font-feature-settings: "calt" off, "kern" off;
-
-  color: #767676;
+  color: variables.$job-title-color;
+}
+.logo {
+  position: relative;
+  left: 22%;
+  top: 10%;
+}
+.logo-holder {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  padding: 1px;
+  background-color: variables.$yellow-background;
+  border-radius: 50%;
+}
+#social-media {
+  position: relative;
+  top: 307px;
+  left: 40px;
+}
+#insta {
+  left: 39px;
+}
+#twitter {
+  left: 78px;
+}
+#linkedin {
+  left: 117px;
+}
+#youtube {
+  left: 156px;
+}
+#ball {
+  left: 195px;
+}
+#facebook-logo {
+  left: 32%;
 }

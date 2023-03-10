@@ -60,4 +60,49 @@ body {
   color: #767676;
 }
 
+.logo {
+  position: relative;
+  left: 22%;
+  top: 10%;
+}
+
+.logo-holder {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  padding: 1px;
+  background-color: #ffb400;
+  border-radius: 50%;
+}
+
+#social-media {
+  position: relative;
+  top: 307px;
+  left: 40px;
+}
+
+#insta {
+  left: 39px;
+}
+
+#twitter {
+  left: 78px;
+}
+
+#linkedin {
+  left: 117px;
+}
+
+#youtube {
+  left: 156px;
+}
+
+#ball {
+  left: 195px;
+}
+
+#facebook-logo {
+  left: 32%;
+}
+
 /*# sourceMappingURL=style.css.map */
