@@ -122,13 +122,21 @@ body {
   top: 356px;
 }
 
+.line2 {
+  position: absolute;
+  width: 220px;
+  height: 5px;
+  left: 40px;
+  top: 532px;
+}
+
 #personal-data {
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   top: 381px;
-  height: 105px;
+  height: 126px;
   left: 40px;
   right: 45px;
 }
@@ -151,6 +159,8 @@ body {
   padding-left: 5px;
   padding-right: 6px;
   background: #ffb400;
+  height: 24px;
+  display: inline-block;
 }
 
 .data {
