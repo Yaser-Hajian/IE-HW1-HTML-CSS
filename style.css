@@ -130,6 +130,14 @@ body {
   top: 532px;
 }
 
+.line3 {
+  position: absolute;
+  width: 220px;
+  height: 5px;
+  left: 40px;
+  top: 735px;
+}
+
 #personal-data {
   position: absolute;
   display: flex;
@@ -169,6 +177,62 @@ body {
 
 #available-status {
   color: #7EB942;
+}
+
+#languages {
+  position: absolute;
+  top: 557px;
+  left: 40px;
+  right: 37px;
+}
+#languages div span {
+  height: 24px;
+  display: inline-block;
+}
+#languages div p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: #767676;
+}
+
+#lang-title {
+  width: 95px;
+  height: 22px;
+  display: block;
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+
+.lang-value {
+  float: right;
+}
+
+#language-container {
+  width: 228px;
+  height: 108px;
+  display: inline-block;
+  height: 108px;
+  top: 15px;
+  position: relative;
+}
+
+#lang2 {
+  margin-top: 18px;
+}
+
+#lang3 {
+  margin-top: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
