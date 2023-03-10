@@ -347,4 +347,30 @@ body {
   margin-top: 5px;
 }
 
+#cv-section {
+  position: absolute;
+  top: 1250px;
+  left: 40px;
+  width: 220px;
+  height: 40px;
+  background-color: #ffb400;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+#cv-section a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+#cv-section img {
+  margin-left: 20px;
+  width: 11.67px;
+  height: 12px;
+}
+
 /*# sourceMappingURL=style.css.map */

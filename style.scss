@@ -312,6 +312,31 @@ body {
   top: 4px;
   left: -9px;
 }
-.skill-row{
+.skill-row {
   margin-top: 5px;
+}
+#cv-section {
+  position: absolute;
+  top: 1250px;
+  left: 40px;
+  width: 220px;
+  height: 40px;
+  background-color: variables.$yellow-background;
+  padding-top: 10px;
+    padding-left: 40px;
+  a {
+    font-family: variables.$text-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: variables.$text-color;
+    text-decoration: none;
+  }
+  img{
+    margin-left: 20px;
+    width:11.67px;
+    height: 12px;
+  }
 }
