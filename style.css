@@ -122,4 +122,43 @@ body {
   top: 356px;
 }
 
+#personal-data {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 381px;
+  height: 105px;
+  left: 40px;
+  right: 45px;
+}
+#personal-data p {
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+}
+#personal-data div {
+  position: relative;
+}
+
+.field {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 6px;
+  background: #ffb400;
+}
+
+.data {
+  float: right;
+}
+
+#available-status {
+  color: #7EB942;
+}
+
 /*# sourceMappingURL=style.css.map */
