@@ -146,6 +146,14 @@ body {
   top: 1024px;
 }
 
+.line5 {
+  position: absolute;
+  width: 220px;
+  height: 5px;
+  left: 41px;
+  top: 1225px;
+}
+
 #personal-data {
   position: absolute;
   display: flex;
@@ -287,6 +295,56 @@ body {
 
 .contact-margin {
   margin-top: 20px;
+}
+
+#skills-sectoin {
+  position: absolute;
+  top: 1052px;
+  left: 40px;
+}
+#skills-sectoin p {
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: #767676;
+}
+#skills-sectoin img {
+  width: 10px;
+  height: 10px;
+  display: inline;
+}
+#skills-sectoin div {
+  position: relative;
+}
+
+#skills {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #2b2b2b !important;
+  margin-bottom: 15px;
+}
+
+.img1 {
+  position: relative;
+}
+
+.img2 {
+  position: relative;
+  top: 4px;
+  left: -9px;
+}
+
+.skill-row {
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
