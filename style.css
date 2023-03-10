@@ -105,4 +105,13 @@ body {
   left: 32%;
 }
 
+#available_icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 198px;
+  top: 166px;
+  width: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
