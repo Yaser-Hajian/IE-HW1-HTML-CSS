@@ -125,6 +125,13 @@ body {
   left: 40px;
   top: 735px;
 }
+.line4 {
+  position: absolute;
+  width: 220px;
+  height: 5px;
+  left: 41px;
+  top: 1024px;
+}
 #personal-data {
   position: absolute;
   display: flex;
@@ -168,7 +175,7 @@ body {
   left: 40px;
   right: 37px;
   div {
-    span{
+    span {
       height: 24px;
       display: inline-block;
     }
@@ -200,17 +207,60 @@ body {
 .lang-value {
   float: right;
 }
-#language-container{
+#language-container {
   width: 228px;
-  height: 108px; 
+  height: 108px;
   display: inline-block;
   height: 108px;
   top: 15px;
-    position: relative;
+  position: relative;
 }
-#lang2{
+#lang2 {
   margin-top: 18px;
 }
-#lang3{
+#lang3 {
   margin-top: 18px;
 }
+#contact-info {
+  position: absolute;
+  top: 766px;
+  left: 40px;
+}
+#contact-title {
+  position: relative;
+  width: 173px;
+  height: 22px;
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: variables.$text-color;
+}
+#contact-container {
+  margin-top: 41px;
+  position: relative;
+  width: 236px;
+  p {
+    font-family: variables.$text-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: "calt" off, "kern" off;
+
+    color: variables.$gray-color;
+  }
+  span {
+    display: inline-block;
+  }
+}
+.contact-info {
+  width: 99px;
+}
+.contact-margin {
+  margin-top: 20px;
+}
+
