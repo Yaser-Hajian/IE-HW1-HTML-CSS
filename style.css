@@ -114,4 +114,12 @@ body {
   width: 20px;
 }
 
+.line {
+  position: absolute;
+  width: 220px;
+  height: 5px;
+  left: 40px;
+  top: 356px;
+}
+
 /*# sourceMappingURL=style.css.map */
