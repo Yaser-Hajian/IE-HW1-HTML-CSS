@@ -323,7 +323,7 @@ body {
   height: 40px;
   background-color: variables.$yellow-background;
   padding-top: 10px;
-    padding-left: 40px;
+  padding-left: 40px;
   a {
     font-family: variables.$text-font;
     font-style: normal;
@@ -334,9 +334,87 @@ body {
     color: variables.$text-color;
     text-decoration: none;
   }
-  img{
+  img {
     margin-left: 20px;
-    width:11.67px;
+    width: 11.67px;
     height: 12px;
+  }
+}
+#intro {
+  position: relative;
+  left: 335px;
+  width: 970px;
+  height: 531.9px;
+  background: variables.$white;
+}
+#intro-title {
+  left: 395px;
+  top: 105.92px;
+
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 123.6%;
+  color: variables.$text-color;
+}
+#intro-container {
+  width: 500px;
+  height: 134.4px;
+  left: 60px;
+  top: 105.92px;
+  position: absolute;
+}
+#intro-job {
+  color: variables.$yellow-background;
+}
+#intro-desc {
+  position: absolute;
+  width: 424px;
+  height: 101px;
+  left: 60px;
+  top: 260px;
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: variables.$job-title-color;
+}
+#hire {
+  background-color: variables.$yellow-background;
+  position: absolute;
+  width: 154px;
+  height: 51px;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  top: 389px;
+  left: 60px;
+
+  a {
+    text-decoration: none;
+    font-family: variables.$text-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: variables.$text-color;
+    width: 65px;
+  }
+  img {
+    position: absolute;
+    left: 71.67%;
+    right: 16.67%;
+    top: 38.59%;
+    bottom: 17.59%;
+    width: 10.5px;
+    height: 10.5px;
   }
 }
