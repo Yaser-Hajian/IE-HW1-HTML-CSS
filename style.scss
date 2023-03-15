@@ -496,7 +496,88 @@ body {
   left: 266px;
   position: absolute;
 }
-#my-services{
+#my-services {
   margin-top: 50px;
   position: relative;
+}
+#my-services {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  top: 183px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.service {
+  width: 310px;
+  height: 225px;
+  position: relative;
+  background-color: variables.$white;
+
+  img {
+    position: relative;
+    left: 122px;
+    top: 35px;
+  }
+}
+.service-title {
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: variables.$text-color;
+  text-align: center;
+  position: absolute;
+  top: 122px;
+  width: 100%;
+}
+.service-desc {
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: variables.$gray-color;
+  position: absolute;
+  margin-top: 16px;
+  top: 144px;
+  text-align: center;
+  width: 100%;
+}
+#final-service-title {
+  top: 31px;
+}
+#final-service-desc {
+  top: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 260px;
+}
+#order-service {
+  text-align: center;
+  color: variables.$yellow-background;
+  font-family: variables.$text-font2;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  left: 112px;
+  position: absolute;
+}
+#order-container {
+  position: absolute;
+  top: 174px;
+  width: 100%;
+  margin-top: 13px;
+  img {
+    position: absolute;
+    left: 191px;
+    top: 3px;
+  }
 }
