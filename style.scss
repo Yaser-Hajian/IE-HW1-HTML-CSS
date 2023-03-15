@@ -467,11 +467,11 @@ body {
   left: 335px;
   margin-top: 73px;
 }
-#services-title {
+.services-education-title {
   position: absolute;
-  width: 193px;
+  width: 100%;
   height: 40px;
-  left: 378px;
+  text-align: center;
   font-family: variables.$text-font;
   font-style: normal;
   font-weight: 700;
@@ -480,7 +480,7 @@ body {
   text-transform: capitalize;
   color: variables.$text-color;
 }
-#services-desc {
+.services-education-desc {
   font-family: variables.$text-font;
   font-style: normal;
   font-weight: 400;
@@ -580,4 +580,86 @@ body {
     left: 191px;
     top: 3px;
   }
+}
+#education {
+  position: relative;
+  width: 970px;
+  height: 815px;
+  left: 335px;
+  margin-top: 65px;
+}
+.educations {
+  position: absolute;
+  width: 100%;
+  height: 632px;
+  margin-top: 183px;
+  background-color: variables.$white;
+}
+.data-record {
+  width: 94%;
+  height: 208px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 29px;
+}
+.data-record-place {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+.data-record-desc {
+  display: inline-block;
+  width: 60%;
+}
+.record-title,
+.desc-title,
+.desc-additional-desc,
+.record-position {
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: variables.$text-color;
+}
+.record-title {
+  margin-top: 51px;
+  margin-bottom: 15px;
+}
+.desc-additional-desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-feature-settings: "calt" off, "kern" off;
+  color: variables.$gray-color;
+  margin-right: 30px;
+}
+.record-position {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-feature-settings: "calt" off, "kern" off;
+}
+.record-date {
+  font-family: variables.$text-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100.9%;
+  color: variables.$white;
+  background-color: variables.$yellow-background;
+  width: 111px;
+  height: 18px;
+  display: inline-block;
+  padding-left: 7px;
+  padding-top: 4px;
+  margin-left: 37px;
+}
+.desc-title {
+  margin-top: 51px;
+  margin-bottom: 20px;
+}
+.have-border-bottom{
+  border-bottom: 1.5px solid #f0f0f6;
 }
