@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #E5E5E5;
-}
-
 .sidebar {
   background-color: #ffffff;
   display: inline-block;
@@ -637,7 +633,8 @@ body {
   top: 3px;
 }
 
-#education {
+#education,
+#work-history {
   position: relative;
   width: 970px;
   height: 815px;
@@ -729,6 +726,12 @@ body {
 
 .have-border-bottom {
   border-bottom: 1.5px solid #f0f0f6;
+}
+
+#whole-container {
+  width: 1327px;
+  display: block;
+  background-color: #E5E5E5;
 }
 
 /*# sourceMappingURL=style.css.map */

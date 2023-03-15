@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: variables.$background;
+  
 }
 .sidebar {
   background-color: variables.$white;
@@ -581,7 +581,8 @@ body {
     top: 3px;
   }
 }
-#education {
+#education,
+#work-history {
   position: relative;
   width: 970px;
   height: 815px;
@@ -660,6 +661,11 @@ body {
   margin-top: 51px;
   margin-bottom: 20px;
 }
-.have-border-bottom{
-  border-bottom: 1.5px solid #f0f0f6;
+.have-border-bottom {
+  border-bottom: 1.5px solid variables.$border-color;
+}
+#whole-container{
+  width: 1327px;
+  display: block;
+  background-color: variables.$background;
 }
