@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 body {
-  
 }
 .sidebar {
   background-color: variables.$white;
@@ -16,6 +15,7 @@ body {
   height: 1315px;
   left: 0px;
   top: 0px;
+  border-left: 1px solid variables.$background;
 }
 #profile {
   position: absolute;
@@ -664,8 +664,10 @@ body {
 .have-border-bottom {
   border-bottom: 1.5px solid variables.$border-color;
 }
-#whole-container{
+#whole-container {
   width: 1327px;
   display: block;
   background-color: variables.$background;
+  margin: 0px auto;
+  position: relative;
 }

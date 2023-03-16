@@ -12,6 +12,7 @@
   height: 1315px;
   left: 0px;
   top: 0px;
+  border-left: 1px solid #E5E5E5;
 }
 
 #profile {
@@ -732,6 +733,8 @@
   width: 1327px;
   display: block;
   background-color: #E5E5E5;
+  margin: 0px auto;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
