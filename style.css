@@ -733,11 +733,6 @@
   position: relative;
 }
 
-#info-container {
-  position: relative;
-  top: 1400px;
-}
-
 #profile-container {
   position: absolute;
   width: 305px;
@@ -896,6 +891,68 @@
   #cv-section img {
     width: 30px;
     height: 30px;
+  }
+  #intro {
+    top: 40px;
+    left: 0px;
+    width: 100%;
+  }
+  #intro-profile {
+    left: 68%;
+  }
+  #intro-title {
+    font-size: 60px;
+  }
+  #intro-container {
+    width: 680px;
+    left: 167px;
+  }
+  #intro-desc {
+    width: 605px;
+    height: 164px;
+    left: 167px;
+    font-size: 23px;
+    line-height: 34px;
+  }
+  #hire {
+    width: 200px;
+    height: 65px;
+    left: 167px;
+  }
+  #hire a {
+    width: 132px;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  #hire img {
+    left: 82%;
+    width: 20px;
+    height: 20px;
+    top: 32.59%;
+  }
+  #intro-pic7 {
+    top: 67px;
+    left: 131px;
+  }
+  #intro-pic5 {
+    top: 100px;
+    left: 1198px;
+  }
+  #intro-pic1 {
+    top: 394px;
+    left: 643px;
+  }
+  #intro-pic3 {
+    top: 465px;
+    left: 844px;
+  }
+  #intro-pic4 {
+    top: 396px;
+    left: 1267px;
+  }
+  #intro-pic6 {
+    top: 99px;
+    left: 791px;
   }
 }
 
