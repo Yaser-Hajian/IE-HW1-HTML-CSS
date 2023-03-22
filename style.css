@@ -157,6 +157,7 @@
   flex-direction: column;
   justify-content: space-between;
   top: 381px;
+  width: 220px;
   height: 126px;
   left: 40px;
   right: 45px;
@@ -332,12 +333,7 @@
 
 .img1 {
   position: relative;
-}
-
-.img2 {
-  position: relative;
-  top: 4px;
-  left: -9px;
+  margin-right: 5px;
 }
 
 .skill-row {
@@ -739,6 +735,168 @@
 
 #info-container {
   position: relative;
+  top: 1400px;
+}
+
+#profile-container {
+  position: absolute;
+  width: 305px;
+  height: 356px;
+}
+
+@media screen and (max-width: 620px) {
+  .line,
+  .line2,
+  .line3,
+  .line4,
+  .line5 {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  #profile-container {
+    margin: 0px auto;
+    position: relative;
+    width: 500px;
+    height: 575px;
+  }
+  #profile {
+    width: 300px;
+    height: 300px;
+    left: 102px;
+  }
+  #available_icon {
+    height: 100px;
+    width: 80px;
+    left: 337px;
+    top: 243px;
+  }
+  #my-name {
+    width: 319px;
+    height: 53px;
+    left: 90px;
+    top: 370px;
+    font-size: 40px;
+  }
+  #job-title {
+    width: 306px;
+    height: 35px;
+    left: 95px;
+    top: 437px;
+    font-size: 28px;
+  }
+  #social-media {
+    top: 487px;
+    left: 70px;
+  }
+  .logo-holder {
+    width: 55px;
+    height: 55px;
+  }
+  #insta {
+    left: 60px;
+  }
+  #twitter {
+    left: 120px;
+  }
+  #linkedin {
+    left: 180px;
+  }
+  #youtube {
+    left: 240px;
+  }
+  #ball {
+    left: 300px;
+  }
+  .logo {
+    width: 30px;
+    margin-top: 4px;
+  }
+  #facebook-logo {
+    width: 25px;
+    margin-top: 1px;
+  }
+  #twitter-logo {
+    margin-top: 6px;
+  }
+  #youtube-logo {
+    margin-top: 8px;
+  }
+  #personal-data {
+    top: 600px;
+    width: 430px;
+    height: 190px;
+    left: 154px;
+  }
+  #personal-data p {
+    font-size: 30px;
+  }
+  .field {
+    height: 42px;
+    padding-top: 7px;
+  }
+  #languages {
+    top: 600px;
+    left: 776px;
+    height: 180px;
+  }
+  #languages div p {
+    font-size: 30px;
+  }
+  #language-container {
+    width: 300px;
+  }
+  #lang-title {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  #contact-info {
+    top: 840px;
+    left: 153px;
+  }
+  #contact-info p {
+    font-size: 30px;
+  }
+  #contact-container {
+    width: 470px;
+  }
+  .contact-info {
+    width: 170px;
+  }
+  #contact-title {
+    width: 375px;
+  }
+  #skills-sectoin {
+    top: 840px;
+    left: 776px;
+  }
+  #skills-sectoin p {
+    font-size: 30px;
+  }
+  #skills-sectoin img {
+    width: 20px;
+    height: 20px;
+  }
+  #skills-sectoin div {
+    margin-top: 15px;
+  }
+  #cv-section {
+    top: 1134px;
+    left: 460px;
+    width: 425px;
+    height: 76px;
+    padding-top: 27px;
+  }
+  #cv-section a {
+    font-size: 40px;
+  }
+  #cv-section img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
