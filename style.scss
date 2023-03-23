@@ -671,7 +671,7 @@
   width: 305px;
   height: 356px;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 550px) {
   .line,
   .line2,
   .line3,
@@ -722,9 +722,6 @@
   .logo-holder {
     width: 55px;
     height: 55px;
-  }
-  #facebook {
-    // left: 30px;
   }
   #insta {
     left: 60px;
@@ -899,6 +896,7 @@
   .services-education-title {
     font-size: 50px;
     margin-top: 10px;
+    height: 80px;
   }
   .service {
     width: 450px;
@@ -952,19 +950,65 @@
     margin-top: 31px;
   }
 
-  #education {
+  #education,
+  #work-history {
     left: 0px;
     top: 0px;
     margin-top: 5px;
     width: 100%;
+    height: 1407px;
   }
 
-  #work-history {
-    top: 250px;
+  .educations {
+    top: 60px;
+    width: 84%;
+    margin-left: 115px;
+    height: auto;
   }
-
+  .data-record {
+    flex-direction: column;
+    height: 380px;
+  }
+  .data-record-place {
+    width: 100%;
+    div {
+      text-align: center;
+    }
+  }
+  .data-record-desc {
+    width: 100%;
+  }
+  .desc-title {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
+  }
+  .desc-additional-desc {
+    font-size: 25px;
+    width: 94%;
+    line-height: 33px;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  .record-title {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .record-date {
+    width: 289px;
+    height: 47px;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .record-position {
+    font-size: 30px;
+  }
   #work-history {
+    top: 0px;
     left: 0px;
-    margin-top: 170px;
+    margin-top: 10px;
   }
 }
