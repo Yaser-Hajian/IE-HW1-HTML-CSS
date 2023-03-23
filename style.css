@@ -954,6 +954,65 @@
     top: 99px;
     left: 791px;
   }
+  #services {
+    left: 0px;
+    width: 100%;
+  }
+  .services-education-title {
+    font-size: 43px;
+    margin-top: 10px;
+  }
+  .service {
+    width: 344px;
+    height: 240px;
+  }
+  .service img {
+    left: 125px;
+    top: 29px;
+    width: 80px;
+  }
+  .service-title {
+    top: 130px;
+    font-size: 22px;
+  }
+  .service-desc {
+    top: 150px;
+    font-size: 18px;
+  }
+  .services-education-desc {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    width: 620px;
+    height: 127px;
+    left: 365px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #my-services {
+    top: 205px;
+    width: 800px;
+    left: 320px;
+  }
+  #order-service {
+    font-size: 23px;
+    left: 84px;
+    top: 8px;
+  }
+  #order-img {
+    width: 19px;
+    left: 237px !important;
+    top: 1px;
+  }
+  #final-service-desc {
+    margin-left: 42px;
+  }
+  #education {
+    top: 275px;
+  }
+  #work-history {
+    top: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
