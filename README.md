@@ -14,9 +14,18 @@ Then, open the index.html file in your browser to view the webpage.
 ## File Structure
 The repository has the following file structure:
 * `index.html`: the main HTML file for the webpage
+* `style.scss` : styles of project using SCSS
 * `style.css`: the main CSS file for the webpage
+* `_variables.scss` : this file contains global variables like colors and fonts
 * `/assets`: a directory containing all the images and icons used in the webpage
 * `README.md`: a file containing information about the repository
+
+### Hint
+to convert SCSS file to CSS file, you can use this command:
+```sh
+sass --watch style.scss style.css
+```
+This command will add `style.scss` file to the watch list and will convert it to `style.css` whenever it changes.
 
 ## Usage
 The webpage can be used as a template for creating a personal resume webpage.
