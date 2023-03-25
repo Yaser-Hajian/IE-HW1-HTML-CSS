@@ -60,39 +60,27 @@
 }
 .logo {
   position: relative;
-  left: 22%;
   top: 10%;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
 }
 .logo-holder {
-  position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   padding: 1px;
   background-color: variables.$yellow-background;
   border-radius: 50%;
+  text-align: center;
 }
 #social-media {
+  height: 30px;
   position: relative;
   top: 307px;
-  left: 40px;
-}
-#insta {
-  left: 39px;
-}
-#twitter {
-  left: 78px;
-}
-#linkedin {
-  left: 117px;
-}
-#youtube {
-  left: 156px;
-}
-#ball {
-  left: 195px;
-}
-#facebook-logo {
-  left: 32%;
+  margin: 0px auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
 }
 #available_icon {
   position: absolute;
@@ -726,40 +714,26 @@
   }
   #social-media {
     top: 487px;
-    left: 70px;
+    margin: 0px auto;
+    height: 61px;
   }
   .logo-holder {
     width: 55px;
     height: 55px;
   }
-  #insta {
-    left: 60px;
-  }
-  #twitter {
-    left: 120px;
-  }
-  #linkedin {
-    left: 180px;
-  }
-  #youtube {
-    left: 240px;
-  }
-  #ball {
-    left: 300px;
-  }
   .logo {
     width: 30px;
+    height: 30px;
     margin-top: 4px;
   }
-  #facebook-logo {
-    width: 25px;
-    margin-top: 1px;
+  #face-logo {
+    width: 20px;
   }
   #twitter-logo {
-    margin-top: 6px;
+    margin-top: 9px;
   }
   #youtube-logo {
-    margin-top: 8px;
+    margin-top: 6px;
   }
   #personal-data {
     top: 600px;
